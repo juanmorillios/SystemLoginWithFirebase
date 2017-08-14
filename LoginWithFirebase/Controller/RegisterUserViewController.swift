@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  RegisterUserViewController.swift
 //  LoginWithFirebase
 //
 //  Created by Juan Morillo on 14/8/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class RegisterUserViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,8 +16,9 @@ class MainViewController: UIViewController {
       
     }
 
-  
-  @IBAction func buttonLogOutPressed(_ sender: UIButton) {
-  }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+      
+    }
   
 }

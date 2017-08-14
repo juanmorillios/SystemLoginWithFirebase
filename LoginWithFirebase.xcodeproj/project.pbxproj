@@ -8,20 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		87D0619E1F40C0C200D0B01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D0619D1F40C0C200D0B01A /* AppDelegate.swift */; };
-		87D061A01F40C0C200D0B01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D0619F1F40C0C200D0B01A /* ViewController.swift */; };
+		87D061A01F40C0C200D0B01A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D0619F1F40C0C200D0B01A /* HomeViewController.swift */; };
 		87D061A31F40C0C200D0B01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D061A11F40C0C200D0B01A /* Main.storyboard */; };
 		87D061A51F40C0C200D0B01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D061A41F40C0C200D0B01A /* Assets.xcassets */; };
 		87D061A81F40C0C200D0B01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D061A61F40C0C200D0B01A /* LaunchScreen.storyboard */; };
 		87D061B61F41EF0A00D0B01A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D061B51F41EF0A00D0B01A /* Default-568h@2x.png */; };
 		87D061B81F41FF1D00D0B01A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D061B71F41FF1D00D0B01A /* LogInViewController.swift */; };
 		87D061BA1F41FF7C00D0B01A /* RecoveryPswdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D061B91F41FF7C00D0B01A /* RecoveryPswdViewController.swift */; };
+		87DBE7F21F423DA800C0B9A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87DBE7F11F423D9700C0B9A5 /* GoogleService-Info.plist */; };
+		87DBE7F41F42402900C0B9A5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBE7F31F42402900C0B9A5 /* MainViewController.swift */; };
+		87DBE7F61F42485700C0B9A5 /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DBE7F51F42485700C0B9A5 /* RegisterUserViewController.swift */; };
 		DA433CF2F0B266C537A7D8BC /* Pods_LoginWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3769469E3C86CB7B16DA87C /* Pods_LoginWithFirebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87D0619A1F40C0C200D0B01A /* LoginWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D0619D1F40C0C200D0B01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87D0619F1F40C0C200D0B01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87D0619F1F40C0C200D0B01A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		87D061A21F40C0C200D0B01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87D061A41F40C0C200D0B01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87D061A71F40C0C200D0B01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +32,9 @@
 		87D061B51F41EF0A00D0B01A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		87D061B71F41FF1D00D0B01A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		87D061B91F41FF7C00D0B01A /* RecoveryPswdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryPswdViewController.swift; sourceTree = "<group>"; };
+		87DBE7F11F423D9700C0B9A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87DBE7F31F42402900C0B9A5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		87DBE7F51F42485700C0B9A5 /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
 		BFCABF3097FED995ED6C0387 /* Pods-LoginWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginWithFirebase/Pods-LoginWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		C3769469E3C86CB7B16DA87C /* Pods_LoginWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B845A7BB763208EC5E1F85 /* Pods-LoginWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginWithFirebase/Pods-LoginWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,10 +101,12 @@
 		87D061AF1F41EC9800D0B01A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				87D0619F1F40C0C200D0B01A /* ViewController.swift */,
+				87D0619F1F40C0C200D0B01A /* HomeViewController.swift */,
 				87D0619D1F40C0C200D0B01A /* AppDelegate.swift */,
 				87D061B71F41FF1D00D0B01A /* LogInViewController.swift */,
 				87D061B91F41FF7C00D0B01A /* RecoveryPswdViewController.swift */,
+				87DBE7F31F42402900C0B9A5 /* MainViewController.swift */,
+				87DBE7F51F42485700C0B9A5 /* RegisterUserViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,6 +123,7 @@
 		87D061B11F41ECCD00D0B01A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				87DBE7F11F423D9700C0B9A5 /* GoogleService-Info.plist */,
 				87D061B51F41EF0A00D0B01A /* Default-568h@2x.png */,
 				87D061A41F40C0C200D0B01A /* Assets.xcassets */,
 				87D061A91F40C0C200D0B01A /* Info.plist */,
@@ -192,6 +201,7 @@
 			files = (
 				87D061A81F40C0C200D0B01A /* LaunchScreen.storyboard in Resources */,
 				87D061B61F41EF0A00D0B01A /* Default-568h@2x.png in Resources */,
+				87DBE7F21F423DA800C0B9A5 /* GoogleService-Info.plist in Resources */,
 				87D061A51F40C0C200D0B01A /* Assets.xcassets in Resources */,
 				87D061A31F40C0C200D0B01A /* Main.storyboard in Resources */,
 			);
@@ -252,9 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D061A01F40C0C200D0B01A /* ViewController.swift in Sources */,
+				87D061A01F40C0C200D0B01A /* HomeViewController.swift in Sources */,
 				87D0619E1F40C0C200D0B01A /* AppDelegate.swift in Sources */,
+				87DBE7F41F42402900C0B9A5 /* MainViewController.swift in Sources */,
 				87D061BA1F41FF7C00D0B01A /* RecoveryPswdViewController.swift in Sources */,
+				87DBE7F61F42485700C0B9A5 /* RegisterUserViewController.swift in Sources */,
 				87D061B81F41FF1D00D0B01A /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,7 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZJQ583HU9;
-				INFOPLIST_FILE = LoginWithFirebase/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginWithFirebase/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.LoginWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6ZJQ583HU9;
-				INFOPLIST_FILE = LoginWithFirebase/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LoginWithFirebase/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.LoginWithFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
