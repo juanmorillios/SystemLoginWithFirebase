@@ -1,13 +1,14 @@
 //
-//  RegisterViewController.swift
-//  
+//  MainViewController.swift
+//  LoginWithFirebase
 //
 //  Created by Juan Morillo on 14/8/17.
+//  Copyright © 2017 Juan Morillo. All rights reserved.
 //
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
