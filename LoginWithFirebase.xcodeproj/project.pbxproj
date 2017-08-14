@@ -78,14 +78,46 @@
 		87D0619C1F40C0C200D0B01A /* LoginWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				87D0619D1F40C0C200D0B01A /* AppDelegate.swift */,
-				87D0619F1F40C0C200D0B01A /* ViewController.swift */,
-				87D061A11F40C0C200D0B01A /* Main.storyboard */,
-				87D061A41F40C0C200D0B01A /* Assets.xcassets */,
-				87D061A61F40C0C200D0B01A /* LaunchScreen.storyboard */,
-				87D061A91F40C0C200D0B01A /* Info.plist */,
+				87D061B21F41ECE200D0B01A /* Model */,
+				87D061B01F41ECB200D0B01A /* View */,
+				87D061AF1F41EC9800D0B01A /* Controller */,
+				87D061B11F41ECCD00D0B01A /* Supporting Files */,
 			);
 			path = LoginWithFirebase;
+			sourceTree = "<group>";
+		};
+		87D061AF1F41EC9800D0B01A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				87D0619F1F40C0C200D0B01A /* ViewController.swift */,
+				87D0619D1F40C0C200D0B01A /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		87D061B01F41ECB200D0B01A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87D061A61F40C0C200D0B01A /* LaunchScreen.storyboard */,
+				87D061A11F40C0C200D0B01A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87D061B11F41ECCD00D0B01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D061A41F40C0C200D0B01A /* Assets.xcassets */,
+				87D061A91F40C0C200D0B01A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87D061B21F41ECE200D0B01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
