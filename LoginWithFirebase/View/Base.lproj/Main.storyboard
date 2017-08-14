@@ -26,7 +26,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgApp" translatesAutoresizingMaskIntoConstraints="NO" id="G5T-1F-sfb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGAPP" translatesAutoresizingMaskIntoConstraints="NO" id="G5T-1F-sfb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.34901960784313724" green="0.64313725490196072" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
@@ -315,12 +315,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LOGIN" width="640" height="432"/>
-        <image name="RECOVERYPSW" width="640" height="426"/>
+        <image name="BGAPP" width="640" height="426"/>
+        <image name="LOGIN" width="426" height="288"/>
+        <image name="RECOVERYPSW" width="426" height="284"/>
         <image name="bg" width="282" height="351"/>
-        <image name="bgApp" width="375" height="667"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QeY-pu-Lks"/>
+        <segue reference="EkJ-G6-af2"/>
     </inferredMetricsTieBreakers>
 </document>
