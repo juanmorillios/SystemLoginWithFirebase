@@ -18,6 +18,9 @@ class MainViewController: UIViewController {
 
   
   @IBAction func buttonLogOutPressed(_ sender: UIButton) {
+    
+    //TODO: LogOut
+    
   }
   
 }

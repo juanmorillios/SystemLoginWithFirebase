@@ -21,4 +21,6 @@ class RegisterUserViewController: UIViewController {
       
     }
   
+  //TODO: Implements all methods to register in Firebase
+  
 }

@@ -13,6 +13,7 @@ class RecoveryPswdViewController: UIViewController {
   //Textfields with IBOutlets
   @IBOutlet var textFieldRecoveryPassword: UITextField!
   
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
