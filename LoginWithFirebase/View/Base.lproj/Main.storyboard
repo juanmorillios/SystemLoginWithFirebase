@@ -26,54 +26,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGAPP" translatesAutoresizingMaskIntoConstraints="NO" id="G5T-1F-sfb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BGAPP" translatesAutoresizingMaskIntoConstraints="NO" id="G5T-1F-sfb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.34901960784313724" green="0.64313725490196072" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bn9-ht-WYE">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.78823529410000004" green="0.84313725490000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="pgT-oN-vz4"/>
-                                </constraints>
-                                <state key="normal" title="Register">
-                                    <color key="titleColor" red="0.27058823529999998" green="0.72156862749999995" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Uap-ub-oF1" kind="show" id="ZEv-mR-OOB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UB-zS-mQL">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UB-zS-mQL">
                                 <rect key="frame" x="0.0" y="579" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96470588235294119" green="0.82352941176470584" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="gC4-9R-i4e"/>
-                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Log In">
-                                    <color key="titleColor" red="0.19215686269999999" green="0.64705882349999999" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="iac-wb-WBF" kind="show" identifier="goToLogin" id="7tq-k3-xwf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWN-Nm-vc4">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.64313725489999995" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Uap-ub-oF1" kind="show" id="IG1-EV-zac"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5cK-nK-6Lm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bn9-ht-WYE" secondAttribute="bottom" id="NcY-a2-y22"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6UB-zS-mQL" secondAttribute="bottom" constant="44" id="W9b-XP-2qV"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XoY-bp-1FQ"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aOu-e9-h2e"/>
-                            <constraint firstItem="bn9-ht-WYE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dGz-gd-qEW"/>
-                            <constraint firstItem="bn9-ht-WYE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dYA-gl-jvD"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="h1N-I2-tuW"/>
-                            <constraint firstItem="6UB-zS-mQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ixl-9A-SWH"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o2R-pW-hi6"/>
-                            <constraint firstItem="6UB-zS-mQL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q3d-JW-CN9"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tYc-MY-crW"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w4m-Tj-gbT"/>
-                            <constraint firstItem="G5T-1F-sfb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="x6R-cx-qDe"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome" id="ZQZ-iE-2bv">
@@ -92,6 +75,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGIN" translatesAutoresizingMaskIntoConstraints="NO" id="fsx-Fy-QZP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="kIh-Gx-s2o">
                                 <rect key="frame" x="46.5" y="158" width="282" height="351"/>
                             </imageView>
@@ -131,9 +117,6 @@
                                     <segue destination="hka-Xq-nZN" kind="show" identifier="goRecoveryPassword" id="LMb-pB-swr"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGIN" translatesAutoresizingMaskIntoConstraints="NO" id="fsx-Fy-QZP">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -178,7 +161,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIX-oB-Cd2">
-                                <rect key="frame" x="159" y="321" width="57" height="24"/>
+                                <rect key="frame" x="159" y="321.5" width="57" height="24"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -255,7 +238,7 @@
         <!--Register-->
         <scene sceneID="wIz-Xe-XFP">
             <objects>
-                <viewController title="Register" id="Uap-ub-oF1" customClass="RecoveryPswdViewController" customModule="LoginWithFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Register" id="Uap-ub-oF1" customClass="RegisterUserViewController" customModule="LoginWithFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CG1-VU-Wh8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,9 +272,6 @@
                                 <state key="normal" title="Resgister">
                                     <color key="titleColor" red="0.34901960780000002" green="0.64313725489999995" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="buttonRegisterPressed:" destination="Uap-ub-oF1" eventType="touchUpInside" id="Sz9-Ch-04y"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -306,8 +286,6 @@
                         <viewLayoutGuide key="safeArea" id="Hm2-xD-ucp"/>
                     </view>
                     <connections>
-                        <outlet property="textFieldEmailAdress" destination="P17-b8-alv" id="eBz-d2-7VJ"/>
-                        <outlet property="textFieldPassword" destination="fhQ-KO-Tkd" id="5g4-NY-cN6"/>
                         <segue destination="RGH-4Z-ard" kind="show" identifier="goToHome" id="QeY-pu-Lks"/>
                     </connections>
                 </viewController>
