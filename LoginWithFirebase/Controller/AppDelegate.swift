@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    sleep(4)
+    sleep(2)
     FIRApp.configure()
     let myDatabase = FIRDatabase.database().reference()
     myDatabase.setValue("All process of configuration is READY")
