@@ -7,20 +7,31 @@
 //
 
 import UIKit
+import Firebase
 
 class RegisterUserViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-      
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-      
-    }
+  @IBOutlet var textFieldEmailAdress: UITextField!
   
-  //TODO: Implements all methods to register in Firebase
+  @IBOutlet var textFieldPassword: UITextField!
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    
+  }
+  
+  @IBAction func buttonRegisterPRessed(_ sender: UIButton) {
+    
+    FIRAuth.auth()?.createUser(withEmail: textFieldEmailAdress.text!, password: textFieldPassword.text!, completion: { (user, error) in
+      
+      if error != nil {
+        print("Error \(String(describing: error?.localizedDescription))")
+      } else {
+        self.performSegue(withIdentifier: "goToHome", sender: self)
+        print("Resgistro completo")
+      }
+      
+    })
+    
+  }
   
 }

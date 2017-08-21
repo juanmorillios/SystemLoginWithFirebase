@@ -9,16 +9,14 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-      
-    }
-
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    
+  }
   
   @IBAction func buttonLogOutPressed(_ sender: UIButton) {
-    
     //TODO: LogOut
     
   }
