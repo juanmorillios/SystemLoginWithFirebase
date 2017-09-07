@@ -38,10 +38,12 @@ class LogInViewController: UIViewController {
   
   @IBAction func buttonForgetPswPressed(_ sender: UIButton) {
     //TODO: Recovery password
-  
+    
   }
   
   @IBAction func buttonChangePswd(_ sender: UIButton) {
+    //TODO: Change Password
+    
     
   }
   
