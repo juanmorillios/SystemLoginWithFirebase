@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class RecoveryPswdViewController: UIViewController {
   
@@ -20,7 +21,17 @@ class RecoveryPswdViewController: UIViewController {
   }
   
   @IBAction func buttonRecoveryPassword(_ sender: UIButton) {
-    //TODO: Recovery password user
+    //MARK: Recovery password user
+    FIRAuth.auth()?.sendPasswordReset(withEmail: textFieldRecoveryPassword.text!, completion: { (error) in
+      
+      if error != nil {
+        print("Error: \(String(describing: error?.localizedDescription))")
+      } else {
+        print("Su contraseña ha sivo enviada correctamente")
+        
+      }
+      
+    })
     
   }
   

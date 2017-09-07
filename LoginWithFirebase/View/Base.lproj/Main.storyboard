@@ -120,6 +120,7 @@
                                 <state key="normal" title="Forget Password?"/>
                                 <connections>
                                     <action selector="buttonForgetPswPressed:" destination="iac-wb-WBF" eventType="touchUpInside" id="tED-bJ-rQH"/>
+                                    <segue destination="hka-Xq-nZN" kind="show" id="ETc-Yu-wgX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liJ-bl-ghB">
@@ -129,6 +130,7 @@
                                 <state key="normal" title="Change Password"/>
                                 <connections>
                                     <action selector="buttonChangePswd:" destination="iac-wb-WBF" eventType="touchUpInside" id="1T0-47-t7m"/>
+                                    <segue destination="Vww-R5-4f4" kind="show" id="4ML-yf-6vd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -139,8 +141,6 @@
                         <outlet property="textFieldEmailAdress" destination="WnF-bD-qgr" id="vl0-ms-eH7"/>
                         <outlet property="textFieldPassword" destination="Zln-t4-n0p" id="94F-BI-wR2"/>
                         <segue destination="RGH-4Z-ard" kind="show" identifier="goToHome" id="EkJ-G6-af2"/>
-                        <segue destination="hka-Xq-nZN" kind="show" identifier="goRecoveryPassword" id="f1K-gP-exP"/>
-                        <segue destination="Vww-R5-4f4" kind="show" identifier="goToChangePassword" id="YK0-s0-fn7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDj-Bx-GGs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -237,10 +237,10 @@
             </objects>
             <point key="canvasLocation" x="977" y="1175"/>
         </scene>
-        <!--Change Password View Controller-->
+        <!--Change Password-->
         <scene sceneID="XUc-3C-KTs">
             <objects>
-                <viewController id="Vww-R5-4f4" customClass="ChangePasswordViewController" customModule="LoginWithFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Change Password" id="Vww-R5-4f4" customClass="ChangePasswordViewController" customModule="LoginWithFirebase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K9X-My-cQI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,6 +372,6 @@
         <image name="bg" width="282" height="351"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QeY-pu-Lks"/>
+        <segue reference="EkJ-G6-af2"/>
     </inferredMetricsTieBreakers>
 </document>
