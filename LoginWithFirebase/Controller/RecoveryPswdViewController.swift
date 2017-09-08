@@ -26,13 +26,26 @@ class RecoveryPswdViewController: UIViewController {
       
       if error != nil {
         print("Error: \(String(describing: error?.localizedDescription))")
+        
+        
       } else {
         print("Su contraseña ha sivo enviada correctamente")
-        
+        self.message()
       }
       
     })
+  }
+  func message() {
+    
+    let alertController = UIAlertController(title: "Change Sucess", message: "Su cambio de contraseña ha sido realizado satisfactoriamente", preferredStyle: .alert)
+    
+    let actionOK = UIAlertAction(title: "Aceptar", style: .default, handler: nil)
+    
+    alertController.addAction(actionOK)
+    
+    present(alertController, animated: true, completion: nil)
+    self.textFieldRecoveryPassword.text = ""
     
   }
-  
+
 }

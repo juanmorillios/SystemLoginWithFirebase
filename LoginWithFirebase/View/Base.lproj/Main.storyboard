@@ -303,6 +303,7 @@
                                     <color key="titleColor" red="0.34901960780000002" green="0.64313725489999995" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="buttonChangePswPressed:" destination="Vww-R5-4f4" eventType="touchUpInside" id="L8g-TA-auM"/>
                                     <action selector="buttonRecoveryPassword:" destination="hka-Xq-nZN" eventType="touchUpInside" id="eDj-30-ofB"/>
                                 </connections>
                             </button>
@@ -314,6 +315,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="H1N-78-0mJ"/>
                     </view>
+                    <connections>
+                        <outlet property="textFielNuewPassword" destination="EIq-Pd-gqs" id="G9y-Ue-wJU"/>
+                        <outlet property="textFieldReNewPassword" destination="2a1-lw-o17" id="ACM-sx-pQ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nDu-fy-t56" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

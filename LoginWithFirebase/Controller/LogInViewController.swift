@@ -39,11 +39,27 @@ class LogInViewController: UIViewController {
   @IBAction func buttonForgetPswPressed(_ sender: UIButton) {
     //TODO: Recovery password
     
+    FIRAuth.auth()?.sendPasswordReset(withEmail: textFieldEmailAdress.text!, completion: { (error) in
+      
+      if error != nil {
+        
+        print("Error \(String(describing: error?.localizedDescription))")
+      } else {
+        
+        print("Error sending message")
+        
+      }
+      
+      
+    })
+    
+    
+    
   }
   
   @IBAction func buttonChangePswd(_ sender: UIButton) {
     //TODO: Change Password
-    
+   
     
   }
   

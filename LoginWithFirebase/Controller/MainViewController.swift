@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     //TODO: LogOut
     
     do {
-      
+  
       try  FIRAuth.auth()?.signOut()
       
     } catch {
